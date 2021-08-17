@@ -18,6 +18,7 @@ function App() {
     getCovidData();
   }, [])
   return (
+
     <div className="App">
 
       <div className="container-fluid">
@@ -28,6 +29,7 @@ function App() {
           <table className="table table-hover">
             <thead className="thead-dark dark">
               <tr>
+              {/* heading names */}
                 <th>State</th>
                 <td>Confirmed</td>
                 <td>Recovered</td>
