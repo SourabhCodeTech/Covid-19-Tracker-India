@@ -43,7 +43,7 @@ function App() {
                 data.map((curElem, index) => {
                   return (
                     <tr key={index}>
-                      <th> {curElem.state} </th>
+                      <td> {curElem.state} </td>
                       <td> {curElem.confirmed} </td>
                       <td> {curElem.recovered} </td>
                       <td> {curElem.deaths} </td>
